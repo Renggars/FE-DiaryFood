@@ -2,6 +2,8 @@
   "name": "diary-food",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.x"},
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -11,6 +13,7 @@
   "dependencies": {
     "@auth/core": "^0.34.2",
     "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/oxide": "^4.1.8",
     "chart.js": "^4.4.9",
     "class-variance-authority": "^0.7.1",
     "framer-motion": "^11.18.2",
